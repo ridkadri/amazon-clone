@@ -15,15 +15,15 @@ const Home = () => {
                 />
                 <div className='home_row'>
                     <Product
-                        title='Final Fantasy VII'
+                        title='Apple Watch Series 5 (GPS + Cellular, 44mm) - Gold Stainless Steel Case with Stone Sport Band'
                         price={19.99}
-                        image='https://images-na.ssl-images-amazon.com/images/I/713-OtN4-8L._AC_SY400_.jpg'
+                        image='https://m.media-amazon.com/images/I/71mhLkrHKxL._AC_UL640_FMwebp_QL65_.jpg'
                         rating={5}
                     />
                     <Product
-                        title='Elite Series 2 Controller - Black'
-                        price={152.89}
-                        image='https://images-na.ssl-images-amazon.com/images/I/41axyW2jpfL._AC_US436_FMwebp_QL65_.jpg'
+                        title='New Apple MacBook Pro (16-inch, 16GB RAM, 512GB Storage, 2.6GHz Intel Core i7) - Space Gray'
+                        price={2099}
+                        image='https://m.media-amazon.com/images/I/71pC69I3lzL._AC_UL640_FMwebp_QL65_.jpg'
                         rating={4}
                     />
                 </div>
@@ -51,9 +51,9 @@ const Home = () => {
 
                 <div className='home_row'>
                     <Product
-                        title='TCL 32S325 32 Inch 720p Roku Smart LED TV (2019)'
-                        price={129.99}
-                        image='https://m.media-amazon.com/images/I/71YZlXXFktL._AC_UY436_FMwebp_QL65_.jpg'
+                        title="Samsung LC49RG90SSUXEN 49' Curved LED Gaming Monitor - Super Ultra Wide Dual WQHD 5120 x 1440"
+                        price={1094.98}
+                        image='https://images-na.ssl-images-amazon.com/images/I/6125mFrzr6L._AC_SX355_.jpg'
                         rating={4}
                     />
                 </div>

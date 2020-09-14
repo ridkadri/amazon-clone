@@ -11,19 +11,18 @@ const Product = ({id, title, price, image, rating}) => {
                     <strong>{price}</strong>
                 </p>
                 <div className='product_rating'>
-                    {Array(rating).fill().map((_,i) => (
-                        <span>⭐</span>
+                    {Array(rating)
+                        .fill()
+                        .map((_,i) => (
+                        <p>🌟</p>
                     ))}
                 </div>
            </div>
            
-           <img 
-                src={image}
-                alt=''
-            />
+           <img src={image} alt=''/>
             <button>Add to basket</button>
         </div>
     )
 }
 
-export default Product
+export default Product;
