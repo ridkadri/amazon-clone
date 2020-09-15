@@ -25,7 +25,9 @@ const Header = () => {
                 />
                 <SearchIcon className='header_searchIcon'/>
             </div>
+
             <div className='header_nav'>
+                <Link to='/login'>
                 <div className='header_option'>
                     <span className='header_optionLineOne'>
                         Hello, Sign In
@@ -34,6 +36,7 @@ const Header = () => {
                         Account & Lists
                     </span>
                 </div>
+                </Link>
 
                 <div className='header_option'>
                     <span className='header_optionLineOne'>
