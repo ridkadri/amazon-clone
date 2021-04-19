@@ -1,5 +1,13 @@
 import React from 'react';
-import './Product.css';
+import {
+    Container, 
+    ProductInfo, 
+    ProductPrice, 
+    ProductRating, 
+    ProductImage, 
+    ProductButton
+} from './styles/product';
+
 import { useStateValue } from '../../StateProvider';
 
 const Product = ({id, title, price, image, rating}) => {
@@ -20,25 +28,25 @@ const Product = ({id, title, price, image, rating}) => {
     }
 
     return (
-        <div className='product'>
-           <div className='product_info'>
+        <Container>
+           <ProductInfo>
                 <p>{title}</p>
-                <p className='product_price'>
+                <ProductPrice>
                     <small>$</small>
                     <strong>{price}</strong>
-                </p>
-                <div className='product_rating'>
+                </ProductPrice>
+                <ProductRating>
                     {Array(rating)
                         .fill()
                         .map((_,i) => (
                         <p>🌟</p>
                     ))}
-                </div>
-           </div>
+                </ProductRating>
+           </ProductInfo>
            
-           <img src={image} alt=''/>
-            <button onClick={addToBasket}>Add to basket</button>
-        </div>
+           <ProductImage src={image} alt=''/>
+            <ProductButton onClick={addToBasket}>Add to basket</ProductButton>
+        </Container>
     )
 }
 
