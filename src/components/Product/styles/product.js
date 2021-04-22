@@ -12,6 +12,11 @@ export const Container = styled.div`
     min-width: 100px;
     background-color: white;
     z-index: 1;
+
+    @media (max-width: 600px) {
+        padding: 10px;
+        margin: 0;
+    }
 `;
 
 export const ProductInfo = styled.div`

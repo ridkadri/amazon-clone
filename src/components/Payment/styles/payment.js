@@ -37,4 +37,8 @@ export const PaymentItems = styled.div`
 
 export const PaymentDetails = styled.div`
     flex: 0.8;
+
+    @media (max-width: 600px) {
+        margin-left: 20px;
+    }
 `;

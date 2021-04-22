@@ -5,6 +5,10 @@ export const CheckoutContainer = styled.div`
     padding: 20px;
     background-color: white;
     height: max-content;
+
+    @media (max-width: 600px) {
+        display: block;
+    }
 `;
 
 export const CheckoutImage = styled.img`

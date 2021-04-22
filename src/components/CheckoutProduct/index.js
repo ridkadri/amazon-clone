@@ -7,6 +7,7 @@ import {
     CheckoutProductRating,
     CheckoutProductButton
 } from './styles/checkoutProduct';
+
 import { useStateValue } from '../../StateProvider';
 
 const CheckoutProduct = forwardRef(({id, image, title, price, rating}, ref) => {
